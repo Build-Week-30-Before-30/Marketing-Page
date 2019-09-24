@@ -201,6 +201,7 @@ header .navlinks nav a:visited {
 }
 .intro h2 {
   font-weight: 800;
+  text-align: center;
 }
 .intro p {
   font-size: 2rem;
@@ -224,9 +225,11 @@ header .navlinks nav a:visited {
 }
 .container div h2 {
   font-weight: 800;
+  text-align: center;
 }
 .container div p {
   font-size: 2rem;
+  text-align: center;
 }
 .container div img {
   max-height: 500px;
