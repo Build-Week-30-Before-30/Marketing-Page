@@ -234,6 +234,12 @@ header .navlinks nav a:visited {
 .container div img {
   max-height: 500px;
 }
+.container div a {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 2%;
+  text-decoration: none;
+}
 .footer {
   padding-top: 2%;
   width: 90%;
