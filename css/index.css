@@ -164,8 +164,7 @@ img {
   height: auto;
 }
 .container {
-  max-width: 800px;
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
 }
 header {
@@ -176,12 +175,12 @@ header h1 {
   margin: 2px;
   justify-content: center;
 }
-header .nav-links {
+header .navlinks {
   display: flex;
   justify-content: flex-end;
   width: 100%;
 }
-.nav-links {
+.navlinks {
   display: flex;
   width: 100%;
 }
