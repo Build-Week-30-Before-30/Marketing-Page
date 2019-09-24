@@ -241,3 +241,6 @@ header .navlinks nav a:visited {
   justify-content: center;
   flex-direction: column;
 }
+.footer div p {
+  font-size: 1.5rem;
+}
