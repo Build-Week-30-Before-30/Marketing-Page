@@ -87,9 +87,9 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
-  border: 2px solid red;
+  border: 0px solid red;
+  color: #33312d;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -175,6 +175,8 @@ header h1 {
   justify-content: center;
   margin-bottom: 2%;
   padding-top: 2%;
+  font-weight: 1000;
+  color: #e6b7be;
 }
 header .navlinks {
   width: 100%;
@@ -186,11 +188,22 @@ header .navlinks nav {
 header .navlinks nav a {
   font-size: 3rem;
   padding-bottom: 2%;
+  color: #33312d;
+  font-weight: 1000;
+}
+header .navlinks nav a:visited {
+  color: #9ebbc4;
 }
 .intro {
   padding-top: 2%;
   width: 90%;
   margin: 0 auto;
+}
+.intro h2 {
+  font-weight: 800;
+}
+.intro p {
+  font-size: 2rem;
 }
 .container {
   padding-top: 2%;
@@ -209,6 +222,22 @@ header .navlinks nav a {
   justify-content: center;
   flex-direction: column;
 }
+.container div h2 {
+  font-weight: 800;
+}
+.container div p {
+  font-size: 2rem;
+}
 .container div img {
   max-height: 500px;
+}
+.footer {
+  padding-top: 2%;
+  width: 90%;
+  margin: 0 auto;
+}
+.footer div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
