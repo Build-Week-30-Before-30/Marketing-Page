@@ -240,6 +240,11 @@ header .navlinks nav a:visited {
   margin-bottom: 2%;
   text-decoration: none;
 }
+@media (max-width: 500px) {
+  .container div {
+    width: 90%;
+  }
+}
 .footer {
   padding-top: 2%;
   width: 90%;
