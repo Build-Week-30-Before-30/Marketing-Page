@@ -240,7 +240,7 @@ header .navlinks nav a:visited {
   margin-bottom: 2%;
   text-decoration: none;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .container div {
     width: 90%;
   }
